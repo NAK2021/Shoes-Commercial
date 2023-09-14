@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerHead</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=League+Spartan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@800&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "/image/logo_snkhead.png" type = "image/x-icon">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <header>
+        <a href="#Home"> Home </a>
+        <a href="#Products_container"> Products </a>
+        <a href="#About"> About us</a>
+        <a href="#Contact"> Contact </a>    
+    </header>
+
+
+    <div id="Home"> 
+        <img class = "background_pic" src="/image/home.png">
+        <div class = "greeting"> Welcome to the  word <br> of sneakerhead</div> 
+        <p class = "des"> Lorem ipsum dolor sit amet consectetur. 
+            Montes <br> sit in facilisis a risus egestas. Quam morbi <br>
+            lorem eget sodales aliquam sagittis tellus.<br>
+            Sem viverra accumsan imperdiet porttitor lacus ...</p>
+    </div>
+    <button id = "page_btn" class="btn btn-primary"><i class="bi-cart3"></i></button>
+
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div  class="swiper-slide">
+                fsafasfsafafasf
+            </div>
+            <div  class="swiper-slide">
+                fsafasfsafafasf
+            </div>
+            <div  class="swiper-slide">
+                fsafasfsafafasf
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div> -->
+
+
+    <div id = "Products_container">
+        <div class = "feature">Products</div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div  class="swiper-slide">
+                    <div id = "season"> 
+                        <div class  = "type s1"> Seasonal products </div>
+                        <div class= "nike_icon"></div>
+                        <div class = "img_shoes"> </div>
+                        <div class  = "title t1"> NIKE </div>
+                        <div class  = "title t2"> AIRFORCE 1 </div>
+                        <div class  = "price p1"> 119.00$</div>
+                        <button id = "moreInfo_btn" class="btn btn-primary"> MORE INFO</button> 
+                        <button id = "addtoCart_btn" class="btn btn-primary"> ADD TO CART</button> 
+                        <ul class = "choose_color">
+                            <li> <button id = "white" class="btn btn-primary"></button> </li>
+                            <li> <button id = "blue" class="btn btn-primary"></i></button></li>
+                            <li>  <button id = "black" class="btn btn-primary"></i></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="swiper-slide">
+                    <div id = "new"> 
+                        <div class = "type s2">New Arrivals</div>
+                        <div class="ananas_shoes"> </div>
+                        <div class = "ananas_icon1"></div>
+                        <div class = "ananas_icon2"></div>
+                        <div class  = "price p2"> 119.00$</div>
+                        <button id = "moreInfo_btn_ana" class="btn btn-primary"> MORE INFO</button> 
+                        <button id = "addtoCart_btn_ana" class="btn btn-primary"> ADD TO CART</button> 
+                    </div>
+                </div>
+                <div  class="swiper-slide">
+                    <div id = "bestseller"> 
+                        <div class = "type s3">Best Sellers</div>
+                        <div class  = "title_vans tv1"> Back to the </div>
+                        <div class  = "title_vans tv2"> (G)old school </div>
+                        <div class = "vans_icon"></div>
+                        <div class = "vans_border"></div>
+                        <div class="vans_shoes"></div>
+                        <div class  = "price p3"> 119.00$</div>
+                        <button id = "moreInfo_btn_vans" class="btn btn-primary"> MORE INFO</button> 
+                        <button id = "addtoCart_btn_vans" class="btn btn-primary"> ADD TO CART</button> 
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="saleoff">
+            <div class="frameS4"></div>
+            <div class = "type s4">Sale off 20%</div>
+            <ul class="col c1">
+                <li class="row1_itemi1">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale"> </div>
+                        <div class="price_shoes">
+                            Now only 99.00$
+                        </div>
+                        <div class="shoes_name">Nike Zoom 10</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.</div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>
+                    </div>
+                </li>
+                <li class="row1_itemi2">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale img2"></div>
+                        <div class="price_shoes">Now only 99.00$</div>
+                        <div class="shoes_name">Nike Air Huarache</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.
+                        </div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>    
+                    </div>
+                </li>
+            </ul>
+            <ul class="col c2">
+                <li class="row2_itemi1">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale img3"></div>
+                        <div class="price_shoes">Now only 99.00$</div>
+                        <div class="shoes_name">Nike Zoom 11</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.
+                        </div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>
+                    </div>
+                </li>
+                <li class="row2_itemi2">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale img4"></div>
+                        <div class="price_shoes">now only 99.00$</div>
+                        <div class="shoes_name">Nike Space Hippie 4</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.
+                        </div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>
+                    </div>
+                </li>
+            </ul>
+            <ul class="col c3">
+                <li class="row3_itemi1">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale img5"></div>
+                        <div class="price_shoes">now only 99.00$</div>
+                        <div class="shoes_name">Nike Revolution 5</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.
+                        </div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>
+                    </div>
+                </li>
+                <li class="row3_itemi2">
+                    <div class="frame"> 
+                        <div class = "img_shoes_sale img6"></div>
+                        <div class="price_shoes">Now only 99.00$</div>
+                        <div class="shoes_name">Nike Zoom KD 9</div>
+                        
+                        <div class="shoes_des">Lorem ipsum dolor sit amet <br>
+                            consectetur. Montes sit in <br>facilisis a risus egestas.
+                        </div>
+                        <button class="moreInfo_btn_sale">MORE INFO</button>
+                        <button class="addtoCart_btn_sale">ADD TO CART</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <button class = "product_btn">
+             <div>Other products </div>
+             <i class="bi bi-chevron-double-right"></i>
+            </button> 
+
+    </div>
+
+    <div class="container">
+        
+        <div id="About"> 
+            <div class = "feature">About us</div>
+            <div class="text"></div>
+            <div class="aboutMe">About me</div>
+            <div class="desAbout ds1">Lorem ipsum dolor sit amet <br>consectetur. Montes sit in facilisis 
+                a <br>risus egestas. Quam morbi lorem <br>eget sodales aliquam sagittis tellus.</div>
+            <div class="myWork">My work</div>
+            <div class="desAbout ds2">Lorem ipsum dolor sit amet <br>consectetur. Montes sit in facilisis 
+                a <br>risus egestas. Quam morbi lorem <br>eget sodales aliquam sagittis tellus.</div>
+            <button class = "btn_more btn1"> Learn more</button> 
+            <button class = "btn_more btn2"> Learn more</button> 
+        </div>
+        <img class = "background_container" src="/image/background_container2.png">
+        
+
+
+
+        <div id="Contact"> 
+            <div class = "feature">Contact</div>
+            <div class = "table">
+                <div class="form">
+                    <div class = "form_title">Feedback</div>
+                    <ul>
+                        <li class = "cus_name">
+                            <div class ="form_list form1">
+                                Your name <br><br>
+                                <input type="text" class = "box name">
+                            </div>
+                            
+                        </li>
+                        <li class = "cus_email">
+                            <div class ="form_list form2">
+                                Your gmail<br><br>
+                                <input type="text" class = "box mail">
+                            </div>
+                            
+                        </li>
+                        <li class = "cus_fback">
+                            <div class ="form_list form3">
+                                Your feedback<br><br>
+                                <input type="text" class = "box fback">
+                            </div>
+                        </li>
+                    </ul>
+                    <button class = "send_btn">Send</button>
+                </div>
+                <div class="info">
+                    <div class = "info_title">Get in touch</div>
+                    <ul>
+                        <li class = "address">
+                            <div class = "list_name info1"> 
+                                <i class="bi bi-geo-alt"></i>
+                                Ho Chi Minh city
+                            </div>
+                        </li>
+                        <li class="email">
+                            <div class = "list_name info2">
+                                <i class="bi bi-at"></i> 
+                                buikhoa2015@gmail.com
+                            </div>
+                        </li>
+                        <li class="phone"> 
+                            <div class = "list_name info3">
+                                <i class="bi bi-telephone"></i>
+                                0764449295
+                            </div>
+                        </li>
+
+                        <li class="facebook">
+                            <a class = "list_name info4" href="https://www.facebook.com/khoanguyen1710">
+                                <i class="bi bi-facebook"></i>
+                                Nguyen Khoa
+                            </a>
+                        </li>
+                    </ul>
+                </div>      
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="Copyright">By Rick Nguyen © All Rights Reserved 2023 - 2024</div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 180,
+          loop: true,
+          centerSlide: 'true',
+          fade: 'true',   
+          grabCursor: 'true',
+  
+          autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          
+          },
+          speed: 1000,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          }
+        });
+      </script>
+</body>
+</html>
